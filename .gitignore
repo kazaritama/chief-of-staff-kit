@@ -1,0 +1,14 @@
+# Local-only scratch and secrets -- never committed
+private/*
+!private/README.md
+.env
+.env.*
+*.key
+*.pem
+credentials*
+*secret*
+
+# Worker run artifacts
+work/
+*.log
+.DS_Store
